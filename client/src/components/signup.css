@@ -1,0 +1,33 @@
+.signup{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup form input{
+    margin: 1em;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: antiquewhite;
+}
+.signup a{
+    color: black;
+    text-decoration: none;
+    margin-top: 0.3em;
+}
+.signup button{
+    cursor: pointer;
+}
+.signup a:hover{
+    color: red;
+    text-decoration: underline;
+}

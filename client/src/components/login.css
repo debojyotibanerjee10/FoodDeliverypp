@@ -1,0 +1,33 @@
+.login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login form input{
+    margin: 1em;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: antiquewhite;
+}
+.login a{
+    color: black;
+    text-decoration: none;
+    margin-top: 0.3em;
+}
+.login button{
+    cursor: pointer;
+}
+.login a:hover{
+    color: red;
+    text-decoration: underline;
+}

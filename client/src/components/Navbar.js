@@ -9,6 +9,7 @@ export default function Navbar() {
             <li><h2>GoFood</h2></li>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/">Features</Link></li>
+            <li><Link to="/signup">Signup</Link></li>
             <li><Link to="/login">Login</Link></li>
         </ul>
     </div>
